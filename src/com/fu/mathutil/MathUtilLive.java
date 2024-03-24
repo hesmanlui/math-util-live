@@ -23,14 +23,21 @@ public class MathUtilLive {
 
         //MathUtil.getFactorial(-5); //ném ngoại lệ thật rồi, ai biểu đưa cà chớn chi
         
+        //===========================================================================
         //THÊM CODE SAU LẦN ĐẦU TIÊN LÀM CHUYỆN ẤY - CIDE LÊN SERVER 9:28PM 20/3/2024
         System.out.println("expected: 1! = 1;   actual: " + MathUtil.getFactorial(1));
         System.out.println("expected: 3! = 720;   actual: " + MathUtil.getFactorial(6));
         
+        //===========================================================================
         //THÊM CODE SAU LẦN ĐẦU TIÊN LÀM CHUYỆN ẤY - CIDE LÊN SERVER 11:12PM 22/3/2024
         System.out.println("expected: 9! = 362880;   actual: " + MathUtil.getFactorial(9));
         System.out.println("expected: 10! = 3628800;   actual: " + MathUtil.getFactorial(10));
 
+        //===========================================================================
+        //THÊM CODE SAU LẦN ĐẦU TIÊN LÀM CHUYỆN ẤY - CIDE LÊN SERVER 10:53PM 24/3/2024
+        System.out.println("expected: 11! = --------;   actual: " + MathUtil.getFactorial(11));
+        
+        //===========================================================================
         //kĩ thuật kiểm thử phần mềm: ước lượng xem giá trị trả về của hàm là gì
         //expected value: 5! = 120
         //mày chạy thực tế hay Hàm ai đó viết thực tế là mấy = actual, giả sử 120
