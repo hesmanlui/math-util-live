@@ -38,6 +38,11 @@ public class MathUtilLive {
         System.out.println("expected: 11! = --------;   actual: " + MathUtil.getFactorial(11));
         
         //===========================================================================
+        //THÊM CODE SAU LẦN ĐẦU TIÊN LÀM CHUYỆN ẤY - CIDE LÊN SERVER 10:56PM 25/3/2024
+        System.out.println("expected: 12! = --------;   actual: " + MathUtil.getFactorial(12));
+        
+        
+        //===========================================================================
         //kĩ thuật kiểm thử phần mềm: ước lượng xem giá trị trả về của hàm là gì
         //expected value: 5! = 120
         //mày chạy thực tế hay Hàm ai đó viết thực tế là mấy = actual, giả sử 120
