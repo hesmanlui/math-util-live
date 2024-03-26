@@ -41,6 +41,9 @@ public class MathUtilLive {
         //THÊM CODE SAU LẦN ĐẦU TIÊN LÀM CHUYỆN ẤY - CIDE LÊN SERVER 10:56PM 25/3/2024
         System.out.println("expected: 12! = --------;   actual: " + MathUtil.getFactorial(12));
         
+        //===========================================================================
+        //THÊM CODE SAU LẦN ĐẦU TIÊN LÀM CHUYỆN ẤY - CIDE LÊN SERVER 10:42PM 26/3/2024
+        System.out.println("expected: 13! = --------;   actual: " + MathUtil.getFactorial(13));
         
         //===========================================================================
         //kĩ thuật kiểm thử phần mềm: ước lượng xem giá trị trả về của hàm là gì
